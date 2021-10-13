@@ -1,0 +1,10 @@
+// just use Math.max() and spread operator
+function largestOfFour(nums) {
+    let res = [];
+
+    for (let num of nums){
+        res.push(Math.max(...num));
+    }
+
+    return res;
+}
